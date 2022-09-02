@@ -76,7 +76,7 @@
 		"FuncnlLocIsDeactivated": null,
 		"CreationDate": ""
 	},
-	"api_schema": "sap.s4.beh.functionallocation.v1.FunctionalLocation.Created.v1",
+	"api_schema": "SAPFunctionalLocationCreates",
 	"accepter": ["Header"],
 	"functional_location_code": "1010-CWS",
 	"deleted": false

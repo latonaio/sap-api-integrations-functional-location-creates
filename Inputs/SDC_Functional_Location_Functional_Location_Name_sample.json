@@ -4,7 +4,7 @@
 	"redis_key": "abcdefg",
 	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
 	"FunctionalLocation": {
-		"FunctionalLocation": "",
+		"FunctionalLocation": "1010-CWS",
 		"FunctionalLocationLabelName": "冷却水",
 		"FunctionalLocationName": "",
 		"FuncLocationStructure": "",
@@ -76,8 +76,8 @@
 		"FuncnlLocIsDeactivated": null,
 		"CreationDate": ""
 	},
-	"api_schema": "sap.s4.beh.functionallocation.v1.FunctionalLocation.Created.v1",
+	"api_schema": "SAPFunctionalLocationCreates",
 	"accepter": ["FunctionalLocationName"],
-	"functional_location_code": "",
+	"functional_location_code": "1010-CWS",
 	"deleted": false
 }

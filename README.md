@@ -38,9 +38,9 @@ accepter において 下記の例のように、データの種別（＝APIの�
 ここでは、"Header" が指定されています。    
   
 ```
-"api_schema": "SAPFunctionalLocationCreate",
+"api_schema": "SAPFunctionalLocationCreates",
 "accepter": ["Header"],
-"functional_location": "1",
+"functional_location": "",
 "deleted": false
 ```
   
@@ -49,9 +49,9 @@ accepter において 下記の例のように、データの種別（＝APIの�
 全データを取得する場合、sample.json は以下のように記載します。  
 
 ```
-"api_schema": "SAPFunctionalLocationCreate",
+"api_schema": "SAPFunctionalLocationCreates",
 "accepter": ["All"],
-"functional_location": "1",
+"functional_location": "",
 "deleted": false
 ```
 ## 指定されたデータ種別のコール
@@ -83,12 +83,12 @@ func (c *SAPAPICaller) AsyncPostFunctionalLocation(
 
 ## Output  
 本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
-以下の sample.json の例は、SAP XXXXX の ヘッダデータ が登録された結果の JSON の例です。  
+以下の sample.json の例は、SAP 機能場所 の ヘッダデータ が登録された結果の JSON の例です。  
 以下の項目のうち、"FunctionalLocation" ～ "XXXXX" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
 
 ```
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-creates/SAP_API_Caller/caller.go#L50",
-	"function": "sap-api-integrations-creates/SAP_API_Caller.(*SAPAPICaller).Header",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-functional-location-creates/SAP_API_Caller/caller.go#L50",
+	"function": "sap-api-integrations-functional-location-creates/SAP_API_Caller.(*SAPAPICaller).Header",
 	"level": "INFO",
 	"message": "[{XXXXXXXXXXXXXXXXXXXXXXXXXXXXX}]",
 	"time": "2021-12-11T15:33:00.054455+09:00"
