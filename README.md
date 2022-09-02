@@ -1,5 +1,4 @@
 # sap-api-integrations-functional-location-creates  
-sap-api-integrations-functional-location-creates は、他のすべての sap-api-integrations-functional-location-creates 作成更新の際の 参照元となる マスタレポジトリです。  
 sap-api-integrations-functional-location-creates は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的に、SAP API で 機能場所データ を登録するマイクロサービスです。  
 sap-api-integrations-functional-location-creates には、サンプルのAPI Json フォーマットが含まれています。  
 sap-api-integrations-functional-location-creates は、オンプレミス版である（＝クラウド版ではない）SAPS4HANA API の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。  
